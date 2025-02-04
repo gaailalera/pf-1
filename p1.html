@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bainry</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEUSEhL///8AAACbm5vNzc3IyMiWlpYNDQ0KCgr39/cGBgbT09PDw8P6+vq7u7unp6fc3NyysrLm5uZJSUlCQkKgoKBhYWEWFhZSUlJxcXExMTE6Ojrs7OxpaWmMjIwqKiqEhIQcHBwsLCx8fHyPj49kZGRtbW1XV1cjIyM3NzdGOwLVAAAFlUlEQVR4nO2c6ZLiOgyFiVicjZCFnQBha+D9X/DGpGeahtimbpBD1Zzvd9qtE8uyLSl0OgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBGuH6jv3d98SZLGBBUMhvP3QZjuONsJ4f5QJnSrHmRBLkTU5NhRk4eR8fp7rNUulLdoO85N3qNFE6qQbxgMi1HbeIOb6OUt12E3+qaK+z+DDTsFUuiZsu6MeXSWxaB84u3KZTEg3GbM+mTONzPHoPCkmCzpSZD/m/K6RsnT/IYFJbuGp7tTyTRpUhrjGFRWJIPllYnkiirnT4+hXIip9Y0Ep1DlR18CkuChRWN5dYXa6zgVOg4Kb9GQfO+1gZeheX28cW7Q4pLYrCAW6Hj9FecYbU8Nrau0Ak4HfUVA9gVhqwKT2YD+twKJ5wKxYVb4cD8D06s4ZTy9hW6rBfHF0INt0LWQFNeJ7LWFR6Y93wKTBYwK8w7zNkNWrescMB+NKVeqwrzGXuCikwrkVfhwsLtwmQEq0LW88yPFfpg0yiaG3aj3E4S1b0o8hcVaSOFuru142WWbvk0VqYwpBnL2tuN8OkeRXmCtC9vbS1VQ9lQY8djMHCpKmicDpvuZDQaTbrH4qsqT9DDCcwf6wTaiDI/EjWzGN0ZItVdp0UUPD/vxeHxtOr8ymprA41NgdJRNUfw7beblupWhyjVzbeThpvsbxVGaA72nj0X/bb+oo6oCVWltlOiV/eHPFpUVRgq1M+Mree9XU1gL2dlt4jq1A0ldX/SL2TuXun7YSuJffpS+VQ8jR5sHaZh93C+VuFltpwvjlH8KKf/pdoqhpuWiom0jVTv/Bd59LXyq8gpDRWiiq7L00i7N/wlsO+hf3Bp8cKdfy2edoXvvyY6m99ROYGtCezIcNnV7f7l1nHVlatL7bORPholok19EtomahODzFgVE7TXnNTC8QeU811aqRLhx5f8q/R1hR+EWasO+oNPfu1yur76/ql2pw/2H6JPVhPDWkftXV+zkGb1ThDYqxjqcDXVKK94wUSf1spNI1i3rlEY9sRgbuj8KQ/m2ivhC7GKFRLGOoN0NZVIXzq4aYDk0t40CpqaN/zy+jA601N/060JLhvoy8kVpa+3NI3kq3aJ4WPkycPBafnrjn85b6LH5ddTva/evpVppJUyQBxp99gpJeci7UVJMkqSqB97T8E3HuxpqhrQm9rf+AUdVObI7kR5FD309Qe6OwHB5iLdmNRRa2LbU4Uu7Tel6hHaTbtPd6RHhvHoa/+9St29+rlwZrWHT2je9l2DqQwn2+kgVMWTtD9ZL++DkHbYjsXFKEjXcnKk38+WdFaLbtKP0zz3PC/P07iXTA7Z7CnEqleiI0sW1iQKfd52/OxOD8lSZcpU7HTbT7qz5aj61Huj6pC+YtCzFFFpo7OiYZ+3viMpsVOYMZTXWPtpuEvcEuEa0kes1bXhin8p/ummb0ehhQKiezWlsZnr+Lz9Qh1jKOBXyNxO0xEX41mTu59mzitRUzuxpTBiVmi+snIr9FgVCjIawN+5V3MqfB/GZprGCl/oL92wdtDqD2w32HuEWY9u/0Cf99qcmGBXeGQNNWT+HIFZYZ+7XOrS0lDUZFUYZBY+uXRpXNuEYEFhz1apxqfrSL0euRQOI5vVRJcuB9Xphkeh7Q8Qbym0ef03iAwKh+G6la+BiUQRPK/ItyuMBy19CNy5TeTq+Oit71WYTrKWP8t3icaDgElhPJlT60Xgzq3O6S5+WhDfpDAPi8sH/XSEuDVaJrcyTLM+b5nn8uKoyD7lNyPukE1c2/li0ujjOTqMDmdZrGn5xyKUVGWYJjzXwwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPB+/gPRPka+1WZXUQAAAABJRU5ErkJggg==" type="image/png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<style>
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+    
+    .marquee-track {
+        display: flex;
+        width: max-content;
+        animation: marquee 30s linear infinite;
+    }
+    
+    .card {
+        flex-shrink: 0;
+    }
+    </style>
+<body>
+    <header class="fixed top-0 left-0 w-full z-30">
+        <nav class="bg-white border border-solid border-gray-300 py-4 mt-4 p-4 mx-4 sm:mx-8 md:mx-16 rounded-full shadow-lg">
+            <div class="flex items-center justify-between">
+           
+                <div class="flex items-center">
+                
+                    <button id="hamburger-menu" class="lg:hidden text-black focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                    <a href="#" class="text-black text-2xl font-semibold relative -mt-2 ml-4">
+                        terra–tory™
+                    </a>
+                </div>
+                <div class="flex items-center mx-2 space-x-4 lg:hidden">
+             
+                    <div class="border-l  border-gray-500 h-8"></div>
+    
+                    <a href="#" class="text-black  font-semibold peer focus:outline-none">Cart(0)</a>
+                </div>
+
+                <div id="nav-links" class="hidden lg:flex items-center">
+                    <div class="border-l border-gray-200 mx-6 h-4"></div>
+                    <ul class="flex space-x-6">
+                        <li><a href="#" class="text-black  hover:bg-gray-200 p-[2px] rounded-2xl font-semibold">Overview</a></li>
+                        <li class="relative group">
+                            <a href="#" class="text-black hover:bg-gray-200 p-[3px] rounded-full font focus:outline-none">Pages</a>
+                          
+                            <div class="absolute mt-10 w-full sm:w-[50%] md:w-[60%] lg:w-[auto] xl:w-[19rem] lg:left-0 xl:left-0 border border-solid border-gray-300 bg-white p-6 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 translate-y-2 transition-all duration-300 ease-out">
+                              <div class="flex space-x-[80px]">
+                             
+                                    <div class="flex flex-col">
+                                        <h3 class="text-black font-semibold mb-4">Multi-Layout</h3>
+                                        <div class="hover:bg-gray-200 rounded-2xl pr-6 pb-2">
+                                            <a href="#" class="text-black flex items-start flex-col">
+                                                <div class="flex pt-6 pl-4 mb-2 -mt-4 items-center">
+                                                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064f2a_Service%20Icon%20(4).svg" alt="Homepage Icon" class="w-5 h-5 mr-4">
+                                                    Homepage
+                                                </div>
+                                                <div class="ml-[52px] flex space-x-[2px] mb-2 items-baseline">
+                                                    <a href="#" class="text-xs hover:underline text-gray-500">Version A</a>
+                                                    <a href="#" class="text-xs hover:underline text-gray-500">Version B</a>
+                                                    <a href="#" class="text-xs hover:underline text-gray-500">Version C</a>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="hover:bg-gray-200 rounded-2xl pr-6 pb-2">
+                                            <a href="#" class="text-black flex items-start flex-col">
+                                                <div class="flex pt-6 pl-4 mb-2 -mt-4 items-center">
+                                                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064f30_Feature%20Icon%20(2).svg" alt="Homepage Icon" class="w-5 h-5 mr-4">
+                                                    About
+                                                </div>
+                                                <div class="ml-[52px] flex space-x-[5px] mb-2 items-baseline">
+                                                    <a href="#" class="text-xs hover:underline text-gray-500">Version A</a>
+                                                    <a href="#" class="text-xs hover:underline text-gray-500">Version B</a>
+                                                    <a href="#" class="text-xs hover:underline text-gray-500">Version C</a>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="hover:bg-gray-200 mb-2 rounded-2xl pr-6 pb-2">
+                                            <a href="#" class="text-black mb-2 flex items-start flex-col">
+                                                <div class="flex pt-6 pl-4 -mt-4 items-center">
+                                                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064f45_Contact%20Icon.svg" alt="Homepage Icon" class="w-5 h-5 mr-4">
+                                                    Contact
+                                                </div>
+                                                <div class="ml-[52px] flex space-x-[5px] mb-2 items-baseline">
+                                                    <a href="#" class="text-xs hover:underline text-gray-500">Version A</a>
+                                                    <a href="#" class="text-xs hover:underline text-gray-500">Version B</a>
+                                                    <a href="#" class="text-xs hover:underline text-gray-500">Version C</a>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+
+                  
+                            </div>
+                        </li>
+                        
+                        <li class="relative group">
+                            <a href="#" class="text-black hover:bg-gray-200 p-[3px] rounded-2xl font focus:outline-none">Information</a>
+                            <div class="absolute left-0 mt-8 w-72 border border-solid  border-gray-300 bg-white p-6 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 translate-y-2 transition-all duration-300 ease-out">
+                                <ul class="space-y-2">
+                                    <a href="#" class="block text-black text-md hover:bg-gray-200 rounded-2xl font-semibold ml-4">
+                                        Style Guide
+                                    </a>
+                                    <a href="#" class="block text-black text-md hover:bg-gray-200 rounded-2xl font-semibold ml-4 ">
+                                        Changelog
+                                    </a>
+                                    <a href="#" class="block text-black text-md hover:bg-gray-200 rounded-2xl font-semibold ml-4">
+                                        Licenses
+                                    </a>
+                                    <a href="#" class="block text-black text-md hover:bg-gray-200 rounded-2xl font-semibold ml-4">
+                                        Pricing
+                                    </a>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hidden lg:block">
+                            <a href="#" class="text-black  hover:bg-gray-200 p-[3px] rounded-2xl font peer focus:outline-none">Cart(0)</a>
+                        </li>
+                    </ul>
+                </div>
+    
+           
+                <div class="flex items-center ml-auto">
+                    <button class="bg-black text-white border border-gray-500 font-semibold rounded-full px-6 py-2 hover:bg-gray-800 hover:text-white transition">Buy template</button>
+                </div>
+            </div>
+
+            <div id="mobile-menu" class="lg:hidden hidden mt-4 w-full max-w-[85%] mx-auto bg-gray-50 rounded-2xl shadow-lg absolute top-full overflow-y-auto max-h-[80vh]">
+
+                <div class="flex justify-between items-center p-0 mx-6 mb-4 mt-2"> 
+                  <div>
+                    <h2 class="text-md mb-2 font-semibold">Biology and Technology<br>solution</h2>
+                    <p class="text-md underline text-black">Buy Template</p>
+                  </div>
+                  <div>
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67403e9bdd3e5c836287fccb_Menu%20Image%20(1).avif" alt="Logo" class="w-[150px] h-[160]" />
+                  </div>
+                </div>
+              
+                <hr>
+              
+                <ul class="space-y-4 p-4 bg-white">
+                  <li><a href="#" class="text-black font-semibold mx-2 block">Overview</a></li>
+                  <hr>
+              
+                  <li class="relative mx-2">
+                    <a href="#" class="text-black font-semibold block flex justify-between items-center mb-4" id="toggle-aboutus-submenu">
+                      Multi-Layout
+                      <span id="aboutus-submenu-icon" class="text-xl cursor-pointer ">+</span>
+                    </a>
+                    <ul class="aboutus-submenu hidden  mt-2 space-y-2 opacity-0 max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <li>
+                            <a href="#" class="text-black font-semibold block  mb-2">Homepage</a>
+                            <ul class=" space-x-4 flex">
+                                <li><a href="#" class="text-gray-500 text-sm block hover:text-black hover:underline">Version A</a></li>
+                                <li><a href="#" class="text-gray-500 text-sm block hover:text-black hover:underline">Version B</a></li>
+                                <li><a href="#" class="text-gray-500 text-sm block hover:text-black hover:underline">Version C</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black font-semibold block mb-2">About</a>
+                            <ul class=" space-x-4 flex">
+                                <li><a href="#" class="text-gray-500 text-sm block hover:text-black hover:underline">Version A</a></li>
+                                <li><a href="#" class="text-gray-500 text-sm block hover:text-black hover:underline">Version B</a></li>
+                                <li><a href="#" class="text-gray-500 text-sm block hover:text-black hover:underline">Version C</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="text-black font-semibold block  mb-2">Contact</a>
+                            <ul class="space-x-4 flex">
+                                <li><a href="#" class="text-gray-500 text-sm block hover:text-black hover:underline">Version A</a></li>
+                                <li><a href="#" class="text-gray-500 text-sm block hover:text-black hover:underline">Version B</a></li>
+                                <li><a href="#" class="text-gray-500 text-sm block hover:text-black hover:underline">Version C</a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                  </li>
+                  <hr>
+              
+                  <li class="relative mx-2">
+                    <a href="#" class="text-black font-semibold block flex justify-between items-center mb-4" id="toggle-services-submenu">
+                      Company
+                      <span id="services-submenu-icon" class="text-xl cursor-pointer">+</span>
+                    </a>
+                    <ul class="services-submenu hidden mt-2 space-y-2 opacity-0 max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <li><a href="#" class="text-black hover:bg-gray-200 rounded-2xl  font-semibold block inline-block relative">Blog</a></li>
+                        <li><a href="#" class="text-black hover:bg-gray-200 rounded-2xl   font-semibold block inline-block relative">Blog Article</a></li>
+                        <li><a href="#" class="text-black hover:bg-gray-200 rounded-2xl  font-semibold block inline-block relative">Pricing</a></li>
+                        <li><a href="#" class="text-black hover:bg-gray-200 rounded-2xl  font-semibold block inline-block relative">Product</a></li>
+                        <li><a href="#" class="text-black hover:bg-gray-200 rounded-2xl  font-semibold block inline-block relative">Careers</a></li>
+                        <li><a href="#" class="text-black  hover:bg-gray-200 rounded-2xl font-semibold block inline-block relative">Privacy Policy</a></li>
+                    </ul>
+                  </li>
+                  <hr>
+              
+                  <li class="relative mx-2">
+                    <a href="#" class="text-black font-semibold block flex justify-between items-center  mb-4" id="toggle-submenu">
+                      Other Pages
+                      <span id="submenu-icon" class="text-xl cursor-pointer">+</span>
+                    </a>
+                    <ul class="submenu hidden  mt-2 space-y-2 opacity-0 max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                      <li><a href="#" class="text-black font-semibold  hover:bg-gray-200 rounded-2xl font-semibold block inline-block relative">404</a></li>
+                      <li><a href="#" class="text-black font-semibold  hover:bg-gray-200 rounded-2xl font-semibold block inline-block relative">Password</a></li>
+                      <li><a href="#" class="text-black font-semibold hover:bg-gray-200 rounded-2xl font-semibold block inline-block relative">FAQ</a></li>
+                    </ul>
+                  </li>
+                  <hr>
+              
+                  <li class="relative mx-2">
+                    <a href="#" class="text-black font-semibold block flex justify-between items-center  mb-4" id="toggle-info-submenu">
+                      Information
+                      <span id="info-submenu-icon" class="text-xl cursor-pointer">+</span>
+                    </a>
+                    <ul class="info-submenu hidden  mt-2 space-y-2 opacity-0 max-h-0 ">
+                      <li><a href="#" class="text-black font-semibold hover:bg-gray-200 rounded-2xl font-semibold block inline-block relative">Contact</a></li>
+                      <li><a href="#" class="text-black font-semibold hover:bg-gray-200 rounded-2xl font-semibold block inline-block relative">Terms & Conditions</a></li>
+                      <li><a href="#" class="text-black font-semibold hover:bg-gray-200 rounded-2xl font-semibold block inline-block relative">Privacy Policy</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="mt-4 p-4 mx-2 border-t  border-gray-300 flex justify-between items-center">
+                    <div class="flex space-x-4">
+                      <a href="#" class="text-gray-600 hover:text-black  rounded-full bg-gray-200 hover:bg-gray-300">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                  
+                      <a href="#" class="text-gray-600 hover:text-black rounded-full bg-gray-200 hover:bg-gray-300">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                  
+                      <a href="#" class="text-gray-600 hover:text-black rounded-full bg-gray-200 hover:bg-gray-300">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                  
+                      <a href="#" class="text-gray-600 hover:text-black rounded-full bg-gray-200 hover:bg-gray-300">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </div>
+                  
+                    <p class="text-sm text-black">© Design by <span class="underline">Ariel</span> for BYQ Studio</p>
+                  </div>
+        </nav>
+    </header>
+    
+      
+
+
+      <section class="fixed top-0 left-0 w-full h-screen  overflow-hidden z-10 bg-black">
+     
+
+        <div class="absolute bottom-[160px] left-12 m-6 text-white z-20">
+            <h1 class="text-4xl sm:text-4xl md:text-6xl lg:text-8xl font">
+                Your canvas for a
+            </h1>
+    
+            <div class="flex items-center mt-6 justify-center">
+                <div class="border-t-2 border-gray-300 w-32 sm:w-48 md:w-56 mx-auto mr-4"></div>
+                <h1 class="text-4xl sm:text-4xl md:text-6xl lg:text-8xl font">
+                  greener future
+                </h1>
+            </div>
+            <button class="group py-[6px] mt-8 px-4 bg-yellow-200 text-black font-semibold rounded-full flex items-center justify-center">
+                <span class="pl-2">Get started</span>
+             
+                <svg class="w-5 h-5  text-black ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </button>
+            
+        </div>
+    
+        <div class="absolute bottom-6 right-6 bg-black text-white p-2 rounded-xl z-20 flex flex-col items-center justify-center">
+       
+            <iframe class="w-64 h-36 rounded-xl" src="https://terra-tory-template.webflow.io/homepage/home-a#" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    
+       
+            <p class="text-sm mt-2 text-center">Watch our video:</p>
+        </div>
+        <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover opacity-70">
+            <source src="https://cdn.prod.website-files.com/67337f627413b847e2064cec%2F6734f6d6c9fcacdb28c79dc0_8467126-uhd_3840_2160_25fps-transcode.mp4" type="video/mp4">
+            <source src="https://cdn.prod.website-files.com/67337f627413b847e2064cec%2F6734f6d6c9fcacdb28c79dc0_8467126-uhd_3840_2160_25fps-transcode.webm" type="video/webm">
+          </video>
+      
+    </section>
+    <section class="relative z-20 w-full py-24 bg-white text-black flex flex-col items-center justify-center  px-0 rounded-tl-[50px] rounded-tr-[50px] mt-[100vh]">
+   
+        <div class="text-center mb-8 mx-4 sm:mx-[154px]">
+            <h2 class="text-sm sm:text-4xl lg:text-sm font-semibold mb-4">OUR MISSION</h2>
+            <p class="text-4xl sm:text-2xl lg:text-3xl leading-relaxed">
+                Terra–Tory™ is more than a template, it's a <br>
+                commitment to our <span class="inline-block my-2">
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/6735175c7301ee0bb2a7a86a_Carousel%2520Image-p-500.png" 
+                        alt="Planet image" 
+                        class="w-[76px] h-8 inline object-cover rounded-full shadow-lg">
+                </span> planet.
+                Designed for<br> those who build with purpose,  each element reflects our 
+                <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673507cdce2af0291e8278e8_Tomato.avif" 
+                alt="Planet image" 
+                class="w-[76px] h-8 inline object-cover rounded-full shadow-lg">
+                </span> dedication to sustainability <br>and thoughtful design.
+            </p>
+        </div>
+        
+    
+        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4  w-full max-w-full rounded-xl overflow-hidden px-4 mt-8 sm:px-[120px]">
+       
+            <div class="border border-dotted border-black w-auto h-auto p-10 rounded-tl-2xl sm:rounded-tl-2xl xl:rounded-bl-2xl flex flex-col items-start justify-start">
+                <svg class="w-6 h-6 mb-4" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_10002_1140)">
+                    <path d="M16.6667 32C16.596 32.0253 16.8467 32 16.6667 32V32ZM16.6667 32C6.66667 32 0 24.8227 0 16C0 7.17733 7.17733 0 16 0C24.8227 0 32 7.17733 32 16C32 25.3333 24.6667 32 16.6667 32ZM21.9067 5.33333H20.6667C19.564 5.33333 18.6667 6.23067 18.6667 7.33333V8.66667C18.6667 9.76933 17.7693 10.6667 16.6667 10.6667C15.564 10.6667 14.6667 11.564 14.6667 12.6667V14C14.6667 15.1027 15.564 16 16.6667 16H20.6667C22.5053 16 24 17.4947 24 19.3333V20C24 20.1413 24.0733 23.4347 27.3653 25.2547C29.4267 22.728 30.6667 19.508 30.6667 16C30.6667 11.0787 28.2227 6.72667 24.4933 4.06533C23.864 4.85333 22.9267 5.33333 21.9067 5.33333ZM16 23.3333C16 22.2307 15.1027 21.3333 14 21.3333H9.656C8.428 21.3333 7.22533 20.8347 6.356 19.9667L1.384 14.9947C1.36133 15.328 1.33333 15.6613 1.33333 16.0013C1.33333 24.088 7.91333 30.668 16 30.668V23.3333ZM26.4533 26.2693C22.72 24.0347 22.6667 20.1707 22.6667 20V19.3333C22.6667 18.2307 21.7693 17.3333 20.6667 17.3333H16.6667C14.828 17.3333 13.3333 15.8373 13.3333 14V12.6667C13.3333 10.8293 14.828 9.33333 16.6667 9.33333C17.0333 9.33333 17.3333 9.03467 17.3333 8.66667V7.33333C17.3333 5.496 18.828 4 20.6667 4H21.9067C22.4733 4 22.996 3.752 23.372 3.34C21.2027 2.072 18.6893 1.33333 16.0013 1.33333C8.83067 1.33333 2.85733 6.50667 1.59067 13.3147L7.29867 19.0227C7.92 19.644 8.77733 19.9987 9.656 19.9987H14C15.8387 19.9987 17.3333 21.4933 17.3333 23.332V30.5973C20.8907 30.2747 24.084 28.6813 26.4533 26.2693Z" fill="currentColor"></path>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_10002_1140">
+                    <rect width="100%" height="100%" fill="currentColor"></rect>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                <p class="text-lg font-medium text-left">terra–tory™ enhances digital ecosystems by supporting sustainable development, empowering brands.</p>
+            </div>
+       
+            <div class="border rounded-tr-2xl border-dotted xl:rounded-none sm:rounded-tr-2xl   border-black w-auto h-auto p-10 flex flex-col items-start justify-start">
+                <svg class="w-6 h-6 mb-4 " viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_10002_1819)">
+                    <path d="M27.8933 13.6413L27.88 13.62L22.036 5.23597C20.9147 3.62797 19.0747 2.66797 17.1147 2.66797H10.6667C8.18933 2.66797 5.93333 4.22397 5.056 6.5413L2.216 14.032C0.886667 14.856 0 16.3266 0 18.0013V21.3346C0 22.8053 1.196 24.0013 2.66667 24.0013V25.3346C2.66667 27.54 4.46133 29.3346 6.66667 29.3346C8.872 29.3346 10.6667 27.54 10.6667 25.3346V24.0013H21.3333V25.3346C21.3333 27.54 23.128 29.3346 25.3333 29.3346C27.5387 29.3346 29.3333 27.54 29.3333 25.3346V24.0013C30.804 24.0013 32 22.8053 32 21.3346V19.3346C32 16.688 30.2773 14.436 27.8933 13.6413ZM20.9427 5.99997L26.056 13.336H14.6667V4.0013H17.1147C18.64 4.0013 20.0707 4.74797 20.9427 5.99997ZM6.304 7.01464C6.98667 5.21197 8.74 4.00264 10.6667 4.00264H13.3333V13.336H4.66667C4.39867 13.336 4.13733 13.3586 3.88133 13.4026L6.30267 7.01597L6.304 7.01464ZM9.33333 25.336C9.33333 26.8066 8.13733 28.0026 6.66667 28.0026C5.196 28.0026 4 26.8066 4 25.336V24.0026H9.33333V25.336ZM28 25.336C28 26.8066 26.804 28.0026 25.3333 28.0026C23.8627 28.0026 22.6667 26.8066 22.6667 25.336V24.0026H28V25.336ZM30.6667 21.336C30.6667 22.0706 30.0693 22.6693 29.3333 22.6693H2.66667C1.93067 22.6693 1.33333 22.0706 1.33333 21.336V18.0026C1.33333 16.1653 2.828 14.6693 4.66667 14.6693H26C28.5733 14.6693 30.6667 16.7626 30.6667 19.336V21.336Z" fill="currentColor"></path>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_10002_1819">
+                    <rect width="100%" height="100%" fill="currentColor"></rect>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                <p class="text-lg font-medium text-left">With technology designed to respect natural processes, terra–tory™ provides tools and systems.</p>
+            </div>
+   
+            <div class="border border-dotted border-black w-auto h-auto p-10 xl:rounded-none rounded-bl-2xl sm:rounded-bl-2xl flex flex-col items-start justify-start">
+                <svg class="w-6 h-6 mb-4" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_10002_686)">
+                    <path d="M29.3346 13.0019C29.3346 10.2459 27.0906 8.0019 24.3346 8.0019C22.632 8.0019 21.08 8.85523 20.1653 10.2379C19.3866 9.0699 18.1306 8.2459 16.6786 8.04723C16.852 2.76856 19.2373 1.3339 20.668 1.3339C21.7706 1.3339 22.668 2.23123 22.668 3.3339C22.668 3.70056 22.368 4.00056 22.0013 4.00056C21.6346 4.00056 21.3346 4.29923 21.3346 4.66723C21.3346 5.03523 21.6333 5.3339 22.0013 5.3339C23.104 5.3339 24.0013 4.43656 24.0013 3.3339C24.0013 1.49523 22.5066 0.000562423 20.668 0.000562423C19.168 0.000562423 16.88 1.04856 15.8586 4.53123C15.0293 2.59523 13.5866 1.04723 11.6333 0.0698958C11.304 -0.0941043 10.904 0.0405624 10.7386 0.368562C10.5746 0.697896 10.708 1.0979 11.0373 1.26323C13.6386 2.56323 15.1413 4.9579 15.3173 8.04723C13.868 8.24723 12.6146 9.0699 11.8373 10.2366C10.9226 8.8539 9.37064 8.00056 7.66797 8.00056C4.91197 8.00056 2.66797 10.2446 2.66797 13.0006C2.66797 15.6179 4.69064 17.7726 7.25464 17.9832C6.87197 18.6992 6.66797 19.5032 6.66797 20.3339C6.66797 22.8139 8.4853 24.8792 10.8573 25.2672C10.732 25.7206 10.668 26.1886 10.668 26.6672C10.668 29.6086 13.06 32.0006 16.0013 32.0006C18.9426 32.0006 21.3346 29.6086 21.3346 26.6672C21.3346 26.1886 21.2706 25.7206 21.1453 25.2672C23.5173 24.8792 25.3346 22.8139 25.3346 20.3339C25.3346 19.4979 25.132 18.6966 24.7506 17.9832C27.3133 17.7712 29.3346 15.6166 29.3346 13.0006V13.0019ZM16.0013 9.33523C18.024 9.33523 19.668 10.9792 19.668 13.0019C19.668 15.0246 18.024 16.6686 16.0013 16.6686C13.9786 16.6686 12.3346 15.0246 12.3346 13.0019C12.3346 10.9792 13.9786 9.33523 16.0013 9.33523ZM4.0013 13.0019C4.0013 10.9792 5.6453 9.33523 7.66797 9.33523C9.15197 9.33523 10.4813 10.2206 11.0533 11.5912C11.08 11.6552 11.1146 11.7126 11.1573 11.7619C11.056 12.1579 11.0013 12.5739 11.0013 13.0019C11.0013 13.4299 11.056 13.8446 11.1573 14.2419C11.116 14.2912 11.08 14.3486 11.0533 14.4126C10.4813 15.7832 9.15197 16.6686 7.66797 16.6686C5.6453 16.6686 4.0013 15.0246 4.0013 13.0019ZM8.0013 20.3352C8.0013 19.3966 8.35597 18.5059 8.99864 17.8219C10.1586 17.5032 11.168 16.7766 11.836 15.7646C12.4 16.6112 13.2146 17.2779 14.1733 17.6552C14.184 17.6672 14.1946 17.6792 14.2053 17.6899C14.932 18.3859 15.3333 19.3272 15.3333 20.3339C15.3333 22.3566 13.6893 24.0006 11.6666 24.0006C9.64397 24.0006 7.99997 22.3566 7.99997 20.3339L8.0013 20.3352ZM16.0013 30.6686C13.796 30.6686 12.0013 28.8739 12.0013 26.6686C12.0013 26.1952 12.0853 25.7379 12.248 25.3019C13.852 25.1152 15.228 24.1659 16.0013 22.8272C16.7746 24.1659 18.1493 25.1152 19.7546 25.3019C19.9186 25.7379 20.0013 26.1966 20.0013 26.6686C20.0013 28.8739 18.2066 30.6686 16.0013 30.6686ZM20.3346 24.0019C18.312 24.0019 16.668 22.3579 16.668 20.3352C16.668 19.3846 17.0306 18.4832 17.6893 17.7979C17.7266 17.7592 17.756 17.7179 17.7826 17.6739C18.7613 17.2992 19.5933 16.6259 20.1666 15.7659C20.836 16.7779 21.8453 17.5046 23.0053 17.8232C23.6493 18.5046 24.0013 19.3899 24.0013 20.3352C24.0013 22.3579 22.3573 24.0019 20.3346 24.0019ZM24.3346 16.6686C24.08 16.6686 23.8293 16.6419 23.5866 16.5912C23.5213 16.5646 23.4533 16.5486 23.3826 16.5432C22.3013 16.2539 21.3946 15.4806 20.9493 14.4112C20.9226 14.3472 20.888 14.2912 20.8453 14.2406C20.9466 13.8446 21.0013 13.4286 21.0013 13.0006C21.0013 12.5726 20.9466 12.1579 20.8453 11.7606C20.8866 11.7112 20.9226 11.6539 20.9493 11.5899C21.5213 10.2192 22.8506 9.3339 24.3346 9.3339C26.3573 9.3339 28.0013 10.9779 28.0013 13.0006C28.0013 15.0232 26.3573 16.6672 24.3346 16.6672V16.6686Z" fill="currentColor"></path>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_10002_686">
+                    <rect width="100%" height="100%" fill="currentColor"></rect>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                <p class="text-lg font-semibold text-left">Empowering users to make conscious choices, terra–tory™ integrates ecological values in all aspects.</p>
+            </div>
+        
+            <div class="border border-dotted border-black w-auto h-auto p-10 flex flex-col rounded-br-2xl sm:rounded-br-2xl xl:rounded-tr-2xl items-start justify-start">
+
+
+                <svg class="w-6 h-6 mb-4" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_10002_1287)">
+                    <path d="M29.9868 19.616C29.9308 19.5693 24.4455 15.0627 20.2868 12.412C19.7695 7.508 18.1815 0.588 18.1655 0.517333L18.0468 0H13.9548L13.8361 0.517333C13.8201 0.588 12.2321 7.508 11.7148 12.412C7.55614 15.0627 2.0708 19.5693 2.0148 19.616L1.60547 19.9533L3.4308 23.616L3.9468 23.492C4.24014 23.4213 10.7508 21.8493 15.3468 20.156L15.3068 30.6667H9.27347V32H22.6668V30.6667H16.6388L16.6788 20.1653C21.2748 21.8547 27.7615 23.42 28.0548 23.492L28.5708 23.616L30.3961 19.9533L29.9868 19.616ZM27.8521 22.0693C26.1361 21.6427 20.5108 20.2013 16.6855 18.7453L16.0015 18.48C16.0015 18.48 15.6001 18.636 15.5228 18.6667C15.5228 18.6667 5.8708 21.6427 4.14947 22.0707L3.27347 20.3133C4.6548 19.196 9.22947 15.5427 12.6988 13.3693L12.9761 13.196L13.0081 12.8693C13.4055 8.79467 14.6348 3.07067 15.0188 1.33733H16.9841C17.3681 3.07067 18.5975 8.796 18.9948 12.8693L19.0268 13.196L19.3041 13.3693C22.7748 15.5427 27.3495 19.196 28.7295 20.3133L27.8535 22.0707L27.8521 22.0693ZM17.3335 14.668C17.3335 15.404 16.7361 16.0013 16.0001 16.0013C15.2641 16.0013 14.6668 15.404 14.6668 14.668C14.6668 13.932 15.2641 13.3347 16.0001 13.3347C16.7361 13.3347 17.3335 13.932 17.3335 14.668Z" fill="currentColor"></path>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_10002_1287">
+                    <rect width="100%" height="100%" fill="currentColor"></rect>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                <p class="text-lg font-medium text-left">Simplified processes, integrated impact measurement and reduction of ecological footprints.</p>
+            </div>
+        
+        </div>
+    </section>
+<section class="bg-[#0a0f0a] p-16 py-[128px] relative z-20">
+    <div class="flex flex-col lg:flex-row items-start justify-between">
+    
+        <div class="text-white w-full lg:w-1/2 pr-8 text-left sm:ml-6 lg:ml-24"> 
+            <h2 class="text-md font-bold mb-4 sm:text-sm md:text-base">OUR VALUES</h2>
+            <h2 class="text-4xl sm:text-4xl  md:text-5xl lg:text-7xl">Creating solutions</h2>
+            <div class="flex items-center mt-6 justify-start">
+           
+                <div class="border-t-2 border-gray-300 w-32 sm:w-24 md:w-48 lg:w-56 mr-4"></div>
+                <h1 class="text-4xl lg:mb-4 sm:text-4xl md:text-5xl lg:text-7xl font">
+                    for a future
+                </h1>
+            </div>
+          
+
+            <div class="border-t-2 mt-20 border-dotted border-gray-300 my-12 w-full sm:w-1/2 md:w-2/3 lg:w-[415px]"></div>
+
+            <div class="mb-12">
+                <h3 class="text-2xl font-semibold mb-4 flex items-center">
+                    <svg class="mr-4 text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M9 16.2l-4.5-4.5 1.4-1.4L9 13.4l9.6-9.6 1.4 1.4L9 16.2z"></path>
+                    </svg>
+                    Innovation with purpose.
+                </h3>
+                <p class="text-base ml-4 sm:ml-8 md:ml-10 sm:mr-4">
+                    By combining biological insights with advanced<br>
+                    technology, we develop solutions that are sustainable<br>
+                    and human-first.
+                </p>
+            </div>
+            
+            <div class="border-t-2 border-dotted border-gray-300 my-12 w-full sm:w-1/2 md:w-2/3 lg:w-[415px]"></div>
+            
+            <div class="mb-12">
+                <h3 class="text-2xl font-semibold mb-4 flex items-center">
+                    <svg class="mr-4 text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M9 16.2l-4.5-4.5 1.4-1.4L9 13.4l9.6-9.6 1.4 1.4L9 16.2z"></path>
+                    </svg>
+                    Enhance efficiency naturally
+                </h3>
+                <p class="text-base ml-4 sm:ml-8 md:ml-10 sm:mr-4">
+                    Our systems streamline operations using biological 
+                    <br>principles, optimizing workflows for agility.
+                </p>
+            </div>
+            
+            <div class="border-t-2 border-dotted border-gray-300 my-12 w-full sm:w-1/2 md:w-2/3 lg:w-[415px]"></div>
+            
+            <div class="mb-12">
+                <h3 class="text-2xl font-semibold mb-4 flex items-center">
+                    <svg class="mr-4 text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M9 16.2l-4.5-4.5 1.4-1.4L9 13.4l9.6-9.6 1.4 1.4L9 16.2z"></path>
+                    </svg>
+                    Grow sustainably
+                </h3>
+                <p class="text-base ml-4 sm:ml-8 md:ml-10 sm:mr-4">
+                    Leverage the power of biology and data to grow your <br>
+                    business in a way that prioritizes both innovation and 
+                    <br>environmental responsibility.
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="w-full lg:w-1/2 flex justify-center mt-8 lg:mt-0">
+            <video id="9d6804fe-193f-9e11-89e0-21c371f110fe-video" autoplay loop muted playsinline 
+                class="w-full sm:w-[700px] lg:w-[800px]  h-[500px] sm:h-[400px] lg:h-[870px] object-cover rounded-2xl" 
+                style="background-image:url('https://cdn.prod.website-files.com/67337f627413b847e2064cec%2F67358bbaaa6a76230ffee9fc_-00b6-45b0-b4a3-bf49ee158a55-poster-00001.jpg');">
+                <source src="https://cdn.prod.website-files.com/67337f627413b847e2064cec%2F67358bbaaa6a76230ffee9fc_-00b6-45b0-b4a3-bf49ee158a55-transcode.mp4">
+                <source src="https://cdn.prod.website-files.com/67337f627413b847e2064cec%2F67358bbaaa6a76230ffee9fc_-00b6-45b0-b4a3-bf49ee158a55-transcode.webm">
+            </video>
+        </div>
+    </div>
+</section>
+
+    
+    
+    <section class="bg-white py-12 relative z-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-sm mt-14 font-bold text-gray-900 mb-4">OUR SERVICES</h1>
+            <p class="text-8xl text-black">Elevate Your Eco <br>Presence</p>
+        </div>
+    
+        <div class="overflow-hidden">
+            <div class="marquee-track flex gap-8 mt-12 animate-marquee py-6">
+            
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[500px] w-[450px] flex flex-col justify-between">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-3">Aesthetic</h3>
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673574592737e25344182669_Service%20Icon-2.svg" alt="Aesthetic Service" class="mb-4 rounded-lg mx-auto">
+                    <p class="text-gray-600 p-2">Experience a design as forward-thinking as your vision. terra–tory™ blends beauty with purpose.</p>
+                </div>
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[500px] w-[450px] flex flex-col justify-between">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-3">E-commerce</h3>
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673574592737e2534418266c_Service%20Icon.svg" alt="E-commerce Service" class="mb-4 rounded-lg mx-auto">
+                    <p class="text-gray-600 p-2">Seamless shopping experience tailored for eco-conscious brands. terra–tory™ makes commerce feel natural.</p>
+                </div>
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[500px] w-[450px] flex flex-col justify-between">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-3">Performance</h3>
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673574592737e2534418266b_Service%20Icon-1.svg" alt="Performance Service" class="mb-4 rounded-lg mx-auto">
+                    <p class="text-gray-600 p-2">terra–tory™ delivers fast, efficient loading, making your eco-conscious content effortlessly accessible and impactful.</p>
+                </div>
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[500px] w-[450px] flex flex-col justify-between">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-3">Eco-SEO</h3>
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673574592737e2534418266a_Service%20Icon-3.svg" alt="Performance Service" class="mb-4 rounded-lg mx-auto">
+                    <p class="text-gray-600 p-2">terra–tory™ delivers fast, efficient loading, making your eco-conscious content effortlessly accessible and impactful.</p>
+                </div>
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[500px] w-[450px] flex flex-col justify-between">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-3">Aesthetic</h3>
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673574592737e25344182669_Service%20Icon-2.svg" alt="Aesthetic Service" class="mb-4 rounded-lg mx-auto">
+                    <p class="text-gray-600 p-2">Experience a design as forward-thinking as your vision. terra–tory™ blends beauty with purpose.</p>
+                </div>
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[500px] w-[450px] flex flex-col justify-between">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-3">E-commerce</h3>
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673574592737e2534418266a_Service%20Icon-3.svg" alt="E-commerce Service" class="mb-4 rounded-lg mx-auto">
+                    <p class="text-gray-600 p-2">Seamless shopping experience tailored for eco-conscious brands. terra–tory™ makes commerce feel natural.</p>
+                </div>
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[500px] w-[450px] flex flex-col justify-between">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-3">Design</h3>
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673574592737e2534418266a_Service%20Icon-3.svg" alt="E-commerce Service" class="mb-4 rounded-lg mx-auto">
+                    <p class="text-gray-600 p-2">Seamless shopping experience tailored for eco-conscious brands. terra–tory™ makes commerce feel natural.</p>
+                </div>
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[500px] w-[450px] flex flex-col justify-between">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-3">E-commerce</h3>
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673574592737e2534418266c_Service%20Icon.svg" alt="E-commerce Service" class="mb-4 rounded-lg mx-auto">
+                    <p class="text-gray-600 p-2">Seamless shopping experience tailored for eco-conscious brands. terra–tory™ makes commerce feel natural.</p>
+                </div>
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[500px] w-[450px] flex flex-col justify-between">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-3">E-commerce</h3>
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673574592737e2534418266c_Service%20Icon.svg" alt="E-commerce Service" class="mb-4 rounded-lg mx-auto">
+                    <p class="text-gray-600 p-2">Seamless shopping experience tailored for eco-conscious brands. terra–tory™ makes commerce feel natural.</p>
+                </div>
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[500px] w-[450px] flex flex-col justify-between">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-3">E-commerce</h3>
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673574592737e2534418266c_Service%20Icon.svg" alt="E-commerce Service" class="mb-4 rounded-lg mx-auto">
+                    <p class="text-gray-600 p-2">Seamless shopping experience tailored for eco-conscious brands. terra–tory™ makes commerce feel natural.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white   py-2  px-0 relative z-20">
+
+
+
+
+
+
+
+
+        <div class="container mx-16 text-left">
+            <div class="border-t-2 border-dotted border-gray-300 my-12 w-full sm:w-[50%] md:w-[70%] lg:w-[80%] xl:w-[90%] mx-4 sm:mx-8 mx-auto"></div>
+
+        
+            <h2 class="text-2xl xl:ml-6 sm:text-4xl md:text-3xl lg:text-5xl text-gray-800 leading-tight">
+                By blending ecological insights with advanced 
+                <br class="sm:hidden md:block"> 
+                digital design, terra–tory™ offers the ultimate 
+                <br> 
+                template for businesses driven by 
+                <br> 
+                sustainability and positive impact.
+            </h2>
+        </div>
+        <div class="container xl:ml-6 px-16 py-4 mt-8 sm:mt-8 lg:mt-16 flex flex-col lg:flex-row items-start justify-between">
+            <div class="w-full lg:w-auto md:w-[900px] mb-8 lg:mb-0 flex-shrink-0">
+                <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67346533bc5f919c00859c80_Windmill-p-2000.jpg" 
+                    alt="Sustainability Design" 
+                    class="w-full sm:w-[450px] md:w-[550px]  h-auto lg:h-[600px] xl:w-[1150px] object-cover rounded-lg">
+            </div>
+            
+    
+         
+            <div class="flex-1 flex items-start justify-start lg:ml-8 w-full lg:w-[1000px]">
+                <div class="flex flex-col justify-start text-left w-full lg:w-[550px]">
+                    <p class="text-2xl font leading-tight text-black">
+                        With terra–tory™, you’re choosing a template built to enhance your business’s 
+                        credibility and appeal. Designed for companies at the forefront
+                        of environmental change, terra–tory™ supports your journey toward 
+                        sustainable growth and innovation, helping you connect authentically with like-minded customers.
+                    </p>
+                    
+                    <button class="mt-6 font-semibold px-10 py-4 bg-yellow-200 text-black hover:bg-yellow-100 transition duration-300 w-44 rounded-full text-center">
+                        Get started
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="py-12 lg:-mt-auto  bg-white relative z-20">
+        <div class="mx-8 sm:mx-8 md:mx-8 lg:mx-16  text-left">
+        <div class="border-t-2 border-dotted border-gray-300 my-12 w-full sm:w-[50%] md:w-[70%] lg:w-[80%] xl:w-[90%] mx-4 sm:mx-8 mx-auto"></div>
+    
+       
+            <p class="text-lg sm:text-xl md:text-2xl mr-6 leading-relaxed mb-4 lg:ml-6 text-gray-600">
+                Human Intelligence
+            </p>
+        
+            <h2 class="text-4xl sm:text-5xl lg:ml-6 mr-6 leading-tight text-gray-800">
+                Shape your sustainable vision with terra–tory™
+            </h2>
+        </div>
+    
+        <div class="m-6 mt-12 p-6 mx-4 sm:mx-8 lg:mx-12">
+        
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mx-auto hidden sm:grid">
+                <div class="relative card bg-gray-50 p-4  border-gray-300 rounded-3xl h-[300px] shadow-lg">
+                    <h3 class="absolute top-4 left-4 p-2 mx-2 text-lg  leading-tight font-semibold text-gray-800">Human Result</h3>
+                    <div class="absolute bottom-4 p-2 mx-2 left-4">
+                        <h4 class="text-4xl font-bold text-gray-800 mb-4">5,000+</h4>
+                        <p class="text-sm text-gray-600">Sustainable projects supported.</p>
+                    </div>
+                </div>
+    
+                <div class="bg-white  border-gray-300 rounded-3xl shadow-lg h-[610px] row-span-2">
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673465398de5bc7d2aa25fa1_Leaf-p-2000.jpg" alt="Description of the image" class="w-full h-full object-cover rounded-3xl">
+                </div>
+    
+                <div class="relative card bg-gray-50 p-4  border-gray-300 rounded-3xl h-[300px] shadow-lg">
+                    <h3 class="absolute top-4 left-4 p-2 mx-2 text-lg font-semibold text-gray-800">Human Result</h3>
+                    <div class="absolute bottom-4 p-2 mx-2 left-4">
+                        <h4 class="text-4xl font-bold text-gray-800 mb-4">99.7%</h4>
+                        <p class="text-sm text-gray-600">Reliability guarant</p>
+                    </div>
+                </div>
+    
+                <div class="bg-white  border-gray-300 rounded-3xl shadow-lg h-[300px]">
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67346533d0734c72af49c024_Cow.avif" alt="Description of the image" class="w-full h-full object-cover rounded-3xl">
+                </div>
+    
+                <div class="bg-white  border-gray-300 rounded-3xl shadow-lg h-[285px] ">
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/6734f06f9f734cc9c75f9cd7_Article%20Thumbnail%204.avif" alt="Description of the image" class="w-full h-full object-cover rounded-3xl">
+                </div>
+    
+                <div class="bg-white p-4 bg-yellow-200  border-gray-300 rounded-3xl h-[285px] shadow-lg col-span-1 sm:col-span-2 md:col-span-2 relative">
+                    <h3 class="absolute top-4 p-2 mx-2 left-4 text-xl font-semibold text-gray-800">Flexible Design</h3>
+                    <div class="absolute bottom-4 p-2 mx-2 left-4">
+                        <h4 class="text-lg font-semibold text-gray-800">100+</h4>
+                        <p class="text-sm text-gray-600">Custom layouts tailored to green initiatives.</p>
+                    </div>
+                </div>
+            </div>
+    
+        
+            <div class="grid grid-cols-2 gap-4 mx-auto sm:hidden">
+                <div class="relative card bg-gray-50 p-4 border-gray-300 rounded-3xl h-[300px] shadow-lg">
+                    <h3 class="absolute top-4 left-4 p-2 mx-2 text-lg leading-tight font-semibold text-gray-800">Human Result</h3>
+                    <div class="absolute bottom-4 p-2 mx-2 left-4">
+                        <h4 class="text-4xl leading-wider font-bold text-gray-800 mb-4">5,000+</h4>
+                        <p class="text-sm text-gray-600">Sustainable projects supported.</p>
+                    </div>
+                </div>
+            
+                <div class="bg-white border-gray-300 rounded-3xl shadow-lg h-[620px] sm:w-[100%] sm:col-span-2 md:col-span-1 row-span-2">
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673465398de5bc7d2aa25fa1_Leaf-p-2000.jpg" alt="Description of the image" class="w-full h-full object-cover rounded-3xl">
+                </div>
+            
+                <div class="relative card bg-gray-50 p-4 border-gray-300 rounded-3xl h-[300px] shadow-lg">
+                    <h3 class="absolute top-4 left-4 p-2 mx-2 text-lg font-semibold text-gray-800">Human Result</h3>
+                    <div class="absolute bottom-4 p-2 mx-2 left-4">
+                        <h4 class="text-4xl font-bold text-gray-800 mb-4">99.7%</h4>
+                        <p class="text-sm text-gray-600">Reliability guarant</p>
+                    </div>
+                </div>
+            
+                <div class="bg-white  -mt-[4px] border-gray-300 rounded-3xl shadow-lg h-[285px] sm:h-[300px]">
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67346533d0734c72af49c024_Cow.avif" alt="Description of the image" class="w-full h-full object-cover rounded-3xl">
+                </div>
+            
+                <div class="bg-white  -mt-[4px] border-gray-300 rounded-3xl shadow-lg h-[285px] sm:h-72">
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/6734f06f9f734cc9c75f9cd7_Article%20Thumbnail%204.avif" alt="Description of the image" class="w-full h-full object-cover rounded-3xl">
+                </div>
+            
+                <div class="bg-white p-4 bg-yellow-200  border-gray-300 rounded-3xl h-[285px] shadow-lg col-span-2 sm:col-span-2 md:col-span-2 relative">
+                    <h3 class="absolute top-4 p-2 mx-2 left-4 text-xl font-semibold text-gray-800">Flexible Design</h3>
+                    <div class="absolute bottom-4 p-2 mx-2 left-4">
+                        <h4 class="text-lg font-semibold text-gray-800">100+</h4>
+                        <p class="text-sm text-gray-600">Custom layouts tailored to green initiatives.</p>
+                    </div>
+                </div>
+            </div>
+            
+    </section>
+    
+    
+    
+   <section class="bg-[#0a0f0a] p-16 py-[80px] relative z-20">
+    <div class="flex flex-col lg:flex-row items-start justify-between">
+        <div class="text-white w-full lg:w-1/2 pr-4 text-left sm:ml-0 lg:ml-8">
+            <h2 class="text-md font-bold mb-4 sm:text-sm md:text-base">CRAFTED FOR BUSINESS</h2>
+            <h2 class="text-5xl sm:text-4xl md:text-5xl lg:text-7xl">Designing for</h2>
+            <div class="flex items-center mt-6 justify-start">
+                <div class="border-t-2 border-gray-300 w-32 sm:w-48 md:w-56 mr-4"></div>
+                <h1 class="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font">
+                    tomorrow
+                </h1>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-2 gap-2 md:-mt-[2px] lg:mt-[221px] ml-[-2rem]">
+                <div class="p-8 rounded-lg ">
+                    <div class="mb-4">
+                        <svg class="w-8 h-8" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_10002_1171)">
+                            <path d="M27.8933 13.6413L27.88 13.62L22.036 5.23597C20.9147 3.62797 19.0747 2.66797 17.1147 2.66797H10.6667C8.18933 2.66797 5.93333 4.22397 5.056 6.5413L2.216 14.032C0.886667 14.856 0 16.3266 0 18.0013V21.3346C0 22.8053 1.196 24.0013 2.66667 24.0013V25.3346C2.66667 27.54 4.46133 29.3346 6.66667 29.3346C8.872 29.3346 10.6667 27.54 10.6667 25.3346V24.0013H21.3333V25.3346C21.3333 27.54 23.128 29.3346 25.3333 29.3346C27.5387 29.3346 29.3333 27.54 29.3333 25.3346V24.0013C30.804 24.0013 32 22.8053 32 21.3346V19.3346C32 16.688 30.2773 14.436 27.8933 13.6413ZM20.9427 5.99997L26.056 13.336H14.6667V4.0013H17.1147C18.64 4.0013 20.0707 4.74797 20.9427 5.99997ZM6.304 7.01464C6.98667 5.21197 8.74 4.00264 10.6667 4.00264H13.3333V13.336H4.66667C4.39867 13.336 4.13733 13.3586 3.88133 13.4026L6.30267 7.01597L6.304 7.01464ZM9.33333 25.336C9.33333 26.8066 8.13733 28.0026 6.66667 28.0026C5.196 28.0026 4 26.8066 4 25.336V24.0026H9.33333V25.336ZM28 25.336C28 26.8066 26.804 28.0026 25.3333 28.0026C23.8627 28.0026 22.6667 26.8066 22.6667 25.336V24.0026H28V25.336ZM30.6667 21.336C30.6667 22.0706 30.0693 22.6693 29.3333 22.6693H2.66667C1.93067 22.6693 1.33333 22.0706 1.33333 21.336V18.0026C1.33333 16.1653 2.828 14.6693 4.66667 14.6693H26C28.5733 14.6693 30.6667 16.7626 30.6667 19.336V21.336Z" fill="currentColor"></path>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_10002_1171">
+                            <rect width="100%" height="100%" fill="currentColor"></rect>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Eco Development</h3>
+                    <p class="text-base text-white">
+                        Designed to empower green businesses, terra–tory™ prioritizes sustainability.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-lg ">
+                    <div class="mb-4">
+                        <svg class="w-8 h-8" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_8009_5099)">
+                            <g clip-path="url(#clip1_8009_5099)">
+                            <path d="M29.3346 13.0019C29.3346 10.2459 27.0906 8.0019 24.3346 8.0019C22.632 8.0019 21.08 8.85523 20.1653 10.2379C19.3866 9.0699 18.1306 8.2459 16.6786 8.04723C16.852 2.76856 19.2373 1.3339 20.668 1.3339C21.7706 1.3339 22.668 2.23123 22.668 3.3339C22.668 3.70056 22.368 4.00056 22.0013 4.00056C21.6346 4.00056 21.3346 4.29923 21.3346 4.66723C21.3346 5.03523 21.6333 5.3339 22.0013 5.3339C23.104 5.3339 24.0013 4.43656 24.0013 3.3339C24.0013 1.49523 22.5066 0.000562423 20.668 0.000562423C19.168 0.000562423 16.88 1.04856 15.8586 4.53123C15.0293 2.59523 13.5866 1.04723 11.6333 0.0698958C11.304 -0.0941043 10.904 0.0405624 10.7386 0.368562C10.5746 0.697896 10.708 0.8979 11.0373 1.06323C13.6386 2.36323 15.1413 4.7579 15.3173 8.04723C13.868 8.24723 12.6146 9.0699 11.8373 10.2366C10.9226 8.8539 9.37064 8.00056 7.66797 8.00056C4.91197 8.00056 2.66797 10.2446 2.66797 13.0006C2.66797 15.6179 4.69064 17.7726 7.25464 17.9832C6.87197 18.6992 6.66797 19.5032 6.66797 20.3339C6.66797 22.8139 8.4853 24.8792 10.8573 25.2672C10.732 25.7206 10.668 26.1886 10.668 26.6672C10.668 29.6086 13.06 32.0006 16.0013 32.0006C18.9426 32.0006 21.3346 29.6086 21.3346 26.6672C21.3346 26.1886 21.2706 25.7206 21.1453 25.2672C23.5173 24.8792 25.3346 22.8139 25.3346 20.3339C25.3346 19.4979 25.132 18.6966 24.7506 17.9832C27.3133 17.7712 29.3346 15.6166 29.3346 13.0006V13.0019ZM16.0013 9.33523C18.024 9.33523 19.668 10.9792 19.668 13.0019C19.668 15.0246 18.024 16.6686 16.0013 16.6686C13.9786 16.6686 12.3346 15.0246 12.3346 13.0019C12.3346 10.9792 13.9786 9.33523 16.0013 9.33523ZM4.0013 13.0019C4.0013 10.9792 5.6453 9.33523 7.66797 9.33523C9.15197 9.33523 10.4813 10.2206 11.0533 11.5912C11.08 11.6552 11.1146 11.7126 11.1573 11.7619C11.056 12.1579 11.0013 12.5739 11.0013 13.0019C11.0013 13.4299 11.056 13.8446 11.1573 14.2419C11.116 14.2912 11.08 14.3486 11.0533 14.4126C10.4813 15.7832 9.15197 16.6686 7.66797 16.6686C5.6453 16.6686 4.0013 15.0246 4.0013 13.0019ZM8.0013 20.3352C8.0013 19.3966 8.35597 18.5059 8.99864 17.8219C10.1586 17.5032 11.168 16.7766 11.836 15.7646C12.4 16.6112 13.2146 17.2779 14.1733 17.6552C14.184 17.6672 14.1946 17.6792 14.2053 17.6899C14.932 18.3859 15.3333 19.3272 15.3333 20.3339C15.3333 22.3566 13.6893 24.0006 11.6666 24.0006C9.64397 24.0006 7.99997 22.3566 7.99997 20.3339L8.0013 20.3352ZM16.0013 30.6686C13.796 30.6686 12.0013 28.8739 12.0013 26.6686C12.0013 26.1952 12.0853 25.7379 12.248 25.3019C13.852 25.1152 15.228 24.1659 16.0013 22.8272C16.7746 24.1659 18.1493 25.1152 19.7546 25.3019C19.9186 25.7379 20.0013 26.1966 20.0013 26.6686C20.0013 28.8739 18.2066 30.6686 16.0013 30.6686ZM20.3346 24.0019C18.312 24.0019 16.668 22.3579 16.668 20.3352C16.668 19.3846 17.0306 18.4832 17.6893 17.7979C17.7266 17.7592 17.756 17.7179 17.7826 17.6739C18.7613 17.2992 19.5933 16.6259 20.1666 15.7659C20.836 16.7779 21.8453 17.5046 23.0053 17.8232C23.6493 18.5046 24.0013 19.3899 24.0013 20.3352C24.0013 22.3579 22.3573 24.0019 20.3346 24.0019ZM24.3346 16.6686C24.08 16.6686 23.8293 16.6419 23.5866 16.5912C23.5213 16.5646 23.4533 16.5486 23.3826 16.5432C22.3013 16.2539 21.3946 15.4806 20.9493 14.4112C20.9226 14.3472 20.888 14.2912 20.8453 14.2406C20.9466 13.8446 21.0013 13.4286 21.0013 13.0006C21.0013 12.5726 20.9466 12.1579 20.8453 11.7606C20.8866 11.7112 20.9226 11.6539 20.9493 11.5899C21.5213 10.2192 22.8506 9.3339 24.3346 9.3339C26.3573 9.3339 28.0013 10.9779 28.0013 13.0006C28.0013 15.0232 26.3573 16.6672 24.3346 16.6672V16.6686Z" fill="currentColor"></path>
+                            </g>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_8009_5099">
+                            <rect width="100%" height="100%" fill="currentColor"></rect>
+                            </clipPath>
+                            <clipPath id="clip1_8009_5099">
+                            <rect width="100%" height="100%" fill="currentColor"></rect>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Nature technology</h3>
+                    <p class="text-base text-white">
+                        Harnessing technology that respects nature, terra–tory™ aligns your digital presence .
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-lg">
+                    <div class="mb-4">
+                        <svg class="w-8 h-8" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_10002_1175)">
+                            <path d="M29.9868 19.616C29.9308 19.5693 24.4455 15.0627 20.2868 12.412C19.7695 7.508 18.1815 0.588 18.1655 0.517333L18.0468 0H13.9548L13.8361 0.517333C13.8201 0.588 12.2321 7.508 11.7148 12.412C7.55614 15.0627 2.0708 19.5693 2.0148 19.616L1.60547 19.9533L3.4308 23.616L3.9468 23.492C4.24014 23.4213 10.7508 21.8493 15.3468 20.156L15.3068 30.6667H9.27347V32H22.6668V30.6667H16.6388L16.6788 20.1653C21.2748 21.8547 27.7615 23.42 28.0548 23.492L28.5708 23.616L30.3961 19.9533L29.9868 19.616ZM27.8521 22.0693C26.1361 21.6427 20.5108 20.2013 16.6855 18.7453L16.0015 18.48C16.0015 18.48 15.6001 18.636 15.5228 18.6667C15.5228 18.6667 5.8708 21.6427 4.14947 22.0707L3.27347 20.3133C4.6548 19.196 9.22947 15.5427 12.6988 13.3693L12.9761 13.196L13.0081 12.8693C13.4055 8.79467 14.6348 3.07067 15.0188 1.33733H16.9841C17.3681 3.07067 18.5975 8.796 18.9948 12.8693L19.0268 13.196L19.3041 13.3693C22.7748 15.5427 27.3495 19.196 28.7295 20.3133L27.8535 22.0707L27.8521 22.0693ZM17.3335 14.668C17.3335 15.404 16.7361 16.0013 16.0001 16.0013C15.2641 16.0013 14.6668 15.404 14.6668 14.668C14.6668 13.932 15.2641 13.3347 16.0001 13.3347C16.7361 13.3347 17.3335 13.932 17.3335 14.668Z" fill="currentColor"></path>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_10002_1175">
+                            <rect width="100%" height="100%" fill="currentColor"></rect>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Circular economy</h3>
+                    <p class="text-base text-white">
+                        Supporting the circular economy, terra–tory™ helps reduce waste.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-lg">
+                    <div class="mb-4">
+                        <svg class="w-8 h-8" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_10002_1179)">
+                            <path d="M16.6667 32C16.596 32.0253 16.8467 32 16.6667 32V32ZM16.6667 32C6.66667 32 0 24.8227 0 16C0 7.17733 7.17733 0 16 0C24.8227 0 32 7.17733 32 16C32 25.3333 24.6667 32 16.6667 32ZM21.9067 5.33333H20.6667C19.564 5.33333 18.6667 6.23067 18.6667 7.33333V8.66667C18.6667 9.76933 17.7693 10.6667 16.6667 10.6667C15.564 10.6667 14.6667 11.564 14.6667 12.6667V14C14.6667 15.1027 15.564 16 16.6667 16H20.6667C22.5053 16 24 17.4947 24 19.3333V20C24 20.1413 24.0733 23.4347 27.3653 25.2547C29.4267 22.728 30.6667 19.508 30.6667 16C30.6667 11.0787 28.2227 6.72667 24.4933 4.06533C23.864 4.85333 22.9267 5.33333 21.9067 5.33333ZM16 23.3333C16 22.2307 15.1027 21.3333 14 21.3333H9.656C8.428 21.3333 7.22533 20.8347 6.356 19.9667L1.384 14.9947C1.36133 15.328 1.33333 15.6613 1.33333 16.0013C1.33333 24.088 7.91333 30.668 16 30.668V23.3333ZM26.4533 26.2693C22.72 24.0347 22.6667 20.1707 22.6667 20V19.3333C22.6667 18.2307 21.7693 17.3333 20.6667 17.3333H16.6667C14.828 17.3333 13.3333 15.8373 13.3333 14V12.6667C13.3333 10.8293 14.828 9.33333 16.6667 9.33333C17.0333 9.33333 17.3333 9.03467 17.3333 8.66667V7.33333C17.3333 5.496 18.828 4 20.6667 4H21.9067C22.4733 4 22.996 3.752 23.372 3.34C21.2027 2.072 18.6893 1.33333 16.0013 1.33333C8.83067 1.33333 2.85733 6.50667 1.59067 13.3147L7.29867 19.0227C7.92 19.644 8.77733 19.9987 9.656 19.9987H14C15.8387 19.9987 17.3333 21.4933 17.3333 23.332V30.5973C20.8907 30.2747 24.084 28.6813 26.4533 26.2693Z" fill="currentColor"></path>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_10002_1179">
+                            <rect width="100%" height="100%" fill="currentColor"></rect>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Renewable energy</h3>
+                    <p class="text-base text-white">
+                        Inspired by the power of solar, wind, and water, terra–tory™ drives growth.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full lg:w-1/2 flex justify-center mt-8 lg:mt-0">
+            <video id="caa6f97a-dadf-ff25-88e7-922be656fe97-video" autoplay loop muted playsinline
+                class="w-full sm:w-[500px] md:w-[900px] lg:w-[800px] h-[300px] sm:h-[400px] lg:h-[850px] object-cover rounded-2xl"
+                style="background-image:url('https://cdn.prod.website-files.com/67337f627413b847e2064cec%2F67352e2e93015edef00e8c12_-1614-457c-ad9e-12b699823904-poster-00001.jpg');">
+                <source src="https://cdn.prod.website-files.com/67337f627413b847e2064cec%2F67352e2e93015edef00e8c12_-1614-457c-ad9e-12b699823904-transcode.mp4">
+                <source src="https://cdn.prod.website-files.com/67337f627413b847e2064cec%2F67352e2e93015edef00e8c12_-1614-457c-ad9e-12b699823904-transcode.webm">
+            </video>
+        </div>
+    </div>
+</section>
+    <section class="bg-white py-12 relative z-20 ">
+        <div class="container mx-auto text-center">
+            <h1 class="text-sm mt-14 font-bold text-gray-900 mb-4">TESTIMONIALS</h1>
+            <p class="text-black text-5xl sm:text-4xl md:text-7xl lg:text-8xl">Happy businesses</p>
+
+        </div>
+    
+        <div class="overflow-hidden">
+            <div class="marquee-track flex gap-8 mt-14 animate-marquee py-6">
+    
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[450px] w-[450px] flex flex-col justify-between">
+                    <p class="text-2xl p-6 leading-tight text-gray-900 mb-3">As a green business, we wanted a website that reflects our commitment to the planet. terra–tory™ delivered on every level—beautiful design.</p>
+    
+                    <div class="flex p-6 items-center mt-4">
+                        <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064fea_Member-7.webp" alt="Profile Image" class="w-10 h-10 rounded-full mr-3">
+                        <div>
+                            <p class="font-semibold text-gray-900">John Doe</p>
+                            <p class="text-sm text-gray-600">123 Main St, Cityville, Country</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[450px] w-[450px] flex flex-col justify-between">
+                    <p class="text-2xl p-6 leading-tight text-gray-900 mb-3">As a green business, we wanted a website that reflects our commitment to the planet. terra–tory™ delivered on every level—beautiful design.</p>
+    
+           
+                    <div class="flex p-6 items-center mt-4">
+                        <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064fea_Member-7.webp" alt="Profile Image" class="w-10 h-10 rounded-full mr-3">
+                        <div>
+                            <p class="font-semibold text-gray-900">John Doe</p>
+                            <p class="text-sm text-gray-600">123 Main St, Cityville, Country</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[450px] w-[450px] flex flex-col justify-between">
+                    <p class="text-2xl p-6 leading-tight text-gray-900 mb-3">As a green business, we wanted a website that reflects our commitment to the planet. terra–tory™ delivered on every level—beautiful design.</p>
+    
+ 
+                    <div class="flex p-6 items-center mt-4">
+                        <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064f0f_Button%20Image.webp" alt="Profile Image" class="w-10 h-10 rounded-full mr-3">
+                        <div>
+                            <p class="font-semibold text-gray-900">John Doe</p>
+                            <p class="text-sm text-gray-600">123 Main St, Cityville, Country</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[450px] w-[450px] flex flex-col justify-between">
+                    <p class="text-2xl p-6 leading-tight text-gray-900 mb-3">The attention to detail in terra–tory™ is impressive. It’s clear that this template was built for businesses that prioritize sustainability and quality.</p>
+    
+   
+                    <div class="flex p-6 items-center mt-4">
+                        <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064f8c_Member.webp" alt="Profile Image" class="w-10 h-10 rounded-full mr-3">
+                        <div>
+                            <p class="font-semibold text-gray-900">John Doe</p>
+                            <p class="text-sm text-gray-600">123 Main St, Cityville, Country</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[450px] w-[450px] flex flex-col justify-between">
+                    <p class="text-2xl p-6 leading-tight text-gray-900 mb-3">As a green business, we wanted a website that reflects our commitment to the planet. terra–tory™ delivered on every level—beautiful design.</p>
+           
+                    <div class="flex p-6 items-center mt-4">
+                        <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064f90_Testimonial%20Author.webp" alt="Profile Image" class="w-10 h-10 rounded-full mr-3">
+                        <div>
+                            <p class="font-semibold text-gray-900">John Doe</p>
+                            <p class="text-sm text-gray-600">123 Main St, Cityville, Country</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[450px] w-[450px] flex flex-col justify-between">
+                    <p class="text-2xl p-6 leading-tight text-gray-900 mb-3">terra–tory™ has transformed our brand’s online presence. The eco-conscious design aligns perfectly with our values.</p>
+             
+                    <div class="flex p-6 items-center mt-4">
+                        <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064fea_Member-7.webp" alt="Profile Image" class="w-10 h-10 rounded-full mr-3">
+                        <div>
+                            <p class="font-semibold text-gray-900">John Doe</p>
+                            <p class="text-sm text-gray-600">123 Main St, Cityville, Country</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card  bg-gray-100 p-6 rounded-2xl shadow-lg h-[450px] w-[450px] flex flex-col justify-between">
+                    <p class="text-2xl p-6 leading-tight text-gray-900 mb-3">The attention to detail in terra–tory™ is impressive. It’s clear that this template was built for businesses that prioritize sustainability and quality.</p>
+    
+                    <div class="flex p-6 items-center mt-4">
+                        <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064f0f_Button%20Image.webp" alt="Profile Image" class="w-10 h-10 rounded-full mr-3">
+                        <div>
+                            <p class="font-semibold text-gray-900">John Doe</p>
+                            <p class="text-sm text-gray-600">123 Main St, Cityville, Country</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card bg-gray-100 p-6 rounded-2xl shadow-lg h-[450px] w-[450px] flex flex-col justify-between">
+                    
+                    <p class="text-2xl p-6 leading-tight text-gray-900 mb-3">As a green business, we wanted a website that reflects our commitment to the planet. terra–tory™ delivered on every level—beautiful design.</p>
+    
+                    <div class="flex p-6 items-center mt-4">
+                        <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064f8c_Member.webp" alt="Profile Image" class="w-10 h-10 rounded-full mr-3">
+                        <div>
+                            <p class="font-semibold text-gray-900">John Doe</p>
+                            <p class="text-sm text-gray-600">123 Main St, Cityville, Country</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white p-6 relative z-20">
+        <div class="max-w-[1870px] mx-auto text-center border-4 rounded-2xl border-[#0a0f0a] bg-[#0a0f0a] p-6 w-full flex flex-col justify-center items-center">
+          
+            <h1 class="text-sm font-bold text-white mt-24 mb-4 mx-auto text-sm sm:text-base md:text-lg lg:text-xl">TERRA-TORY™</h1>
+            <p class="text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-white mx-auto mb-6">Uncover your <br> website's potential</p>
+            
+            <div class="flex space-x-4 mt-2 justify-center mb-24">
+                
+                <button class="group py-2 px-4 bg-yellow-200 text-black font-semibold border-2 border-black hover:bg-transparent hover:border-white hover:text-white transition duration-300 rounded-full flex items-center justify-start">
+                    <span class="pl-2">Buy Template</span>
+       
+                    <svg class="w-5 h-5 text-black ml-1 group-hover:text-gray-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+    
+          
+                <button class="py-2 px-4 bg-white text-black font-semibold border-2 border-black hover:bg-transparent hover:border-white hover:text-white transition duration-300 rounded-full flex items-center justify-start space-x-2">
+             
+                    <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/67337f627413b847e2064f0f_Button%20Image.webp" alt="Profile Image" class="w-8 h-8 rounded-full">
+                    <span class="pr-2">Book an intro call</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-white py-6 px-4   relative z-20">
+       
+        <div class="flex justify-center mx-[50px] flex-col md:flex-row flex-wrap">
+      
+          <div class="w-full md:w-[400px] p-4 mr-auto rounded-lg mb-6 md:mb-0">
+            <img src="https://cdn.prod.website-files.com/67337f627413b847e2064cec/673471640e7f0e68423b1592_Terra%20Dark.svg" alt="Descriptive text" class="mb-4">
+            <p class="mb-4 text-black text-xs font-bold leading-tight">SUBSCRIBE FOR OUR NEWSLETTER</p>
+            <div class="relative mb-4">
+              <input type="text" class="rounded-full border border-gray-200 hover:border-black p-2 w-full pr-8" placeholder="Email...">
+              <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-2 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </div>
+            <p class="text-sm text-gray-500">Your information is never disclosed to third parties.</p>
+          </div>
+          
+         
+          <div class="w-full md:w-[600px] p-4 mr-24 rounded-lg mb-6 md:mb-0">
+            <div class="relative flex flex-wrap justify-between items-start mb-4">
+              
+              <div class="text-left flex flex-col mb-4 md:mb-0 w-full md:w-auto">
+                <h3 class="text-xs text-gray-400 font-bold mb-2">MAIN PAGES</h3>
+                <a href="#link1" class="text-xl text-black font-semibold mb-1">Homepage 1</a>
+                <a href="#link1" class="text-xl text-black font-semibold mb-1">Homepage 2</a>
+                <a href="#link1" class="text-xl text-black font-semibold mb-1">Homepage 3</a>
+                <a href="#link1" class="text-xl text-black font-semibold mb-1">About 1</a>
+                <a href="#link1" class="text-xl text-black font-semibold mb-1">About 2</a>
+                <a href="#link1" class="text-xl text-black font-semibold mb-1">About 3</a>
+                <a href="#link1" class="text-xl text-black font-semibold mb-1">Pricing</a>
+                <a href="#link1" class="text-xl text-black font-semibold mb-1">Product</a>
+                <a href="#link1" class="text-xl text-black font-semibold mb-1">Licenses</a>
+              </div>
+         
+              <div class="text-left flex flex-col mb-4 md:mb-0 w-full md:w-auto">
+                <h3 class="text-xs text-gray-400 font-bold mb-2">COMPANY</h3>
+                <a href="#link2" class="text-xl text-black font-semibold mb-1">Blog</a>
+                <a href="#link2" class="text-xl text-black font-semibold mb-1">Blog Article</a>
+                <a href="#link2" class="text-xl text-black font-semibold mb-1">FAQ</a>
+                <a href="#link2" class="text-xl text-black font-semibold mb-1">Careers</a>
+                <a href="#link2" class="text-xl text-black font-semibold mb-1">Privacy Policy</a>
+              </div>
+       
+              <div class="text-left flex flex-col  w-full md:w-auto">
+                <h3 class="text-xs text-gray-400 font-bold mb-2">CONTACT & OTHER</h3>
+                <a href="#link3" class="text-xl text-black font-semibold mb-1">Contact 1</a>
+                <a href="#link3" class="text-xl text-black font-semibold mb-1">Contact 2</a>
+                <a href="#link3" class="text-xl text-black font-semibold mb-1">Contact 3</a>
+                <a href="#link3" class="text-xl text-black font-semibold mb-1">404</a>
+                <a href="#link3" class="text-xl text-black font-semibold mb-1">Password</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      
+      
+      <footer class="bg-white text-gray-800 py-12 relative z-20">
+        <div class="container mx-auto text-center">
+       
+          <hr class="border-t-2 border-gray-300 my-4 mx-auto" />
+      
+       
+          <div class="flex flex-col sm:flex-row justify-between py-6 items-center mb-4">
+            
+            <div class="flex space-x-6 mb-4 sm:mb-0">
+              <a href="#" class="text-gray-800 hover:text-gray-600 transition-colors">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="text-gray-800 hover:text-gray-600 transition-colors">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="text-gray-800 hover:text-gray-600 transition-colors">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <p>&copy;terra–tory™ 2024. All Rights Reserved</p>
+            </div>
+            
+        
+            <div class="text-sm text-center sm:text-right max-w-xs">
+      
+              <p>Designed by Ariel for BYQ</p>
+            </div>
+          </div>
+      
+          <hr class="border-t-2 border-gray-300 my-4 mx-auto" />
+        </div>
+      </footer>
+      
+      
+
+<script src="script.js"></script>
+
+      
+</body>
+</html>
